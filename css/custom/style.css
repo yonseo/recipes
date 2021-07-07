@@ -1,0 +1,29 @@
+body {
+    background-color: #f4f3ff;
+}
+
+#box{
+    color: #fff;
+    border: solid 1px #766b99;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    width: 500px;
+    height: 200px;
+
+    background-color: #282937;
+    background-image:
+    repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+    repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+    linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+    linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+    background-size: 70px 120px;
+}
+
+#social {
+    width: 500px;
+    margin: auto;
+}
