@@ -1,29 +1,81 @@
+html {
+    background-color: #fffbf9;
+}
+
 body {
-    background-color: #f4f3ff;
+
 }
 
-#box{
-    color: #fff;
-    border: solid 1px #766b99;
-    background-color: #fff;
-    border-radius: 5px;
+#box {
+    border-radius: 0px;
     padding: 10px;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+
+}
+
+.date {
     text-align: center;
-    margin: auto;
-    font-family: 'Courier New', Courier, monospace;
-    width: 500px;
-    height: 200px;
-
-    background-color: #282937;
-    background-image:
-    repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
-    repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
-    linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
-    linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
-    background-size: 70px 120px;
+    color: #fff;
+    padding: 3px;
+    background-color: #ac9595;
+    border-radius: 5px;
+    box-shadow: #d9d7d6 0px 1px 5px 0px;
+    font-size: 12px;
+    width: 80px;
 }
 
-#social {
-    width: 500px;
+.card {
+    background-color: #ffffff00;
+    box-shadow: none;
+    color: #34363d;
+    max-width: 400px;
     margin: auto;
+    padding-bottom: 30px;
+
 }
+
+.card-content {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: #d9d7d6 0px 1px 5px 0px;
+}
+
+.card-content title {
+    display: block;
+    font-size: 17px;
+    font-weight: 1000;
+}
+
+.card-img {
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow: #d9d7d6 0px 1px 5px 0px;
+    padding: 1px;
+}
+
+ul {
+    font-weight: 1000;
+    font-size: 14px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 1300;
+}
+
+p {
+    font-weight: 1000;
+    font-size: 14px;
+}
+
+center-title {
+    display: block;
+    text-align: center;
+    font-weight: 600;
+}
+
